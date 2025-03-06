@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <div class="logo">
+                <img src="vecteezy_graduation-hat-with-rolled-certificate-3d-asset_46902486.png">
+                <span class="logo-text">UniMate</span>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div> 
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        <div class="text-box">
+            <h1>Welcome to UniMate</h1>
+            <p>Keep track, stay engaged, and excel with ease.</p>
+            <a href="" class="hero-btn">Login as Admin</a>
+            <a href="form.html" class="hero-btn">Login as User</a>
+        </div>
+    </section>
+
+    <section class ="course">
+        <h1>Courses we offer</h1>
+        <p>At UniMate, we provide a wide range of academic programs designed to cater to various stages of your educational journey. Whether you're just starting out or looking to advance your career, we have the right course for you.At UniMate, we provide a wide range of academic programs designed to cater to various stages of your educational journey. Whether you're just starting out or looking to advance your career, we have the right course for you. </p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Our intermediate courses are designed to provide foundational knowledge and skills in key areas. Perfect for students looking to solidify their understanding before moving on to more advanced topics, these courses are comprehensive and challenging, ensuring that you are well-prepared for the next level of your studies.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Our degree programs offer an in-depth exploration of various fields, equipping students with the critical thinking and technical skills needed for success in their chosen professions. With expert faculty and a practical, hands-on approach, you’ll be ready to make an impact in the real world upon graduation.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post-Graduation</h3>
+                <p>For those looking to specialize further or gain a competitive edge in their field, our post-graduate courses are the perfect fit. Designed for professionals and advanced students, these programs delve deep into specialized subjects, providing expert-level knowledge and research opportunities that can lead to exciting career advancements.</p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
