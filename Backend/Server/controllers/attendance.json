@@ -1,0 +1,55 @@
+[
+  {
+    "date": "2025-04-12",
+    "subject": "BEE",
+    "groupNumber": "G-2",
+    "attendance": [
+      {
+        "rollNumber": "2210991376",
+        "status": "present",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "date": "2025-04-13",
+    "subject": "Linux",
+    "groupNumber": "G-2",
+    "attendance": [
+      {
+        "rollNumber": "2210991376",
+        "status": "absent",
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "date": "2025-04-10",
+    "subject": "BEE",
+    "groupNumber": "G-2",
+    "attendance": [
+      {
+        "rollNumber": "2210991376",
+        "status": "leave",
+        "notes": "on DL"
+      }
+    ]
+  },
+  {
+    "date": "2025-04-14",
+    "subject": "JAVA",
+    "groupNumber": "G-2",
+    "attendance": [
+      {
+        "rollNumber": "2210991376",
+        "status": "absent",
+        "notes": ""
+      },
+      {
+        "rollNumber": "2310991363",
+        "status": "absent",
+        "notes": ""
+      }
+    ]
+  }
+]
